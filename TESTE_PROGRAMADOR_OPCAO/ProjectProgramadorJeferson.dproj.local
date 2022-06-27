@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/20 20:43:59.000.780,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/20 20:45:20.000.806,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/20 20:45:26.000.276,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/20 20:45:49.000.009,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2022/06/20 20:46:31.000.152,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/06/20 20:47:29.000.621,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/06/20 20:47:45.000.754,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2022/06/20 20:48:06.000.136,=C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2022/06/20 20:48:28.000.789,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit8.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Uconsulta.dfm</Transaction>
+    <Transaction>2022/06/20 20:48:28.000.789,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit8.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Uconsulta.pas</Transaction>
+    <Transaction>2022/06/20 20:48:39.000.207,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Urelatorio.dfm</Transaction>
+    <Transaction>2022/06/20 20:48:39.000.207,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Urelatorio.pas</Transaction>
+    <Transaction>2022/06/20 20:48:55.000.783,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit6.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ucredito.pas</Transaction>
+    <Transaction>2022/06/20 20:48:55.000.783,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit6.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ucredito.dfm</Transaction>
+    <Transaction>2022/06/20 20:49:06.000.131,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit5.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Udebito.dfm</Transaction>
+    <Transaction>2022/06/20 20:49:06.000.131,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Udebito.pas</Transaction>
+    <Transaction>2022/06/20 20:49:24.000.658,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ubanco.pas</Transaction>
+    <Transaction>2022/06/20 20:49:24.000.658,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ubanco.dfm</Transaction>
+    <Transaction>2022/06/20 20:49:41.000.589,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Uconta.dfm</Transaction>
+    <Transaction>2022/06/20 20:49:41.000.589,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Uconta.pas</Transaction>
+    <Transaction>2022/06/20 20:49:51.000.031,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ucliente.pas</Transaction>
+    <Transaction>2022/06/20 20:49:51.000.031,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ucliente.dfm</Transaction>
+    <Transaction>2022/06/20 20:49:59.000.520,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Umenu.pas</Transaction>
+    <Transaction>2022/06/20 20:49:59.000.520,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Umenu.dfm</Transaction>
+    <Transaction>2022/06/20 20:50:16.000.265,C:\Users\JEFERSON\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\ProjectProgramadorJeferson.dproj</Transaction>
+    <Transaction>2022/06/20 20:50:33.000.163,=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.pas</Transaction>
+    <Transaction>2022/06/20 20:50:51.000.379,C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Udmdados.dfm</Transaction>
+    <Transaction>2022/06/20 20:50:51.000.379,C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Udmdados.pas</Transaction>
+    <Transaction>2022/06/21 22:09:16.000.556,C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Ucliente.pas=</Transaction>
+    <Transaction>2022/06/21 22:09:27.000.970,=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 22:10:19.000.143,C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\UCliente.pas=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 22:10:19.000.143,C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\UCliente.dfm=C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

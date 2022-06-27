@@ -1,0 +1,58 @@
+object FormMenu: TFormMenu
+  Left = 0
+  Top = 0
+  Caption = 'Menu'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 24
+    Top = 32
+    object Cli: TMenuItem
+      Caption = 'Clientes'
+      OnClick = ClientesClick
+      object Clientes: TMenuItem
+        Caption = 'Clientes'
+        OnClick = ClientesClick
+      end
+    end
+    object bc: TMenuItem
+      Caption = 'Bancos'
+      OnClick = bcClick
+      object Bancos: TMenuItem
+        Caption = 'Bancos'
+        OnClick = BancosClick
+      end
+    end
+    object C: TMenuItem
+      Caption = 'Contas'
+      OnClick = Analitico2Click
+      object Contas: TMenuItem
+        Caption = 'Contas'
+        OnClick = ContasClick
+      end
+      object Contasinativas: TMenuItem
+        Caption = 'Contas Inativas'
+      end
+    end
+    object Relatorios1: TMenuItem
+      Caption = 'Relatorios'
+      object Saldo1: TMenuItem
+        Caption = 'Saldo'
+      end
+      object Extrato: TMenuItem
+        Caption = 'Extrato'
+      end
+    end
+  end
+end

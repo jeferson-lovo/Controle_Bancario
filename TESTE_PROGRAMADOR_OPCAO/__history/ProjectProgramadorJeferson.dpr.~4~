@@ -1,0 +1,29 @@
+program ProjectProgramadorJeferson;
+
+uses
+  Vcl.Forms,
+  Umenu in 'Umenu.pas' {FormMenu},
+  Ucliente in 'Ucliente.pas' {FormClientes},
+  Uconta in 'Uconta.pas' {FormContas},
+  Ubanco in 'Ubanco.pas' {FormBancos},
+  Udebito in 'Udebito.pas' {Form5},
+  Ucredito in 'Ucredito.pas' {Form6},
+  Urelatorio in 'Urelatorio.pas' {Form7},
+  Uconsulta in 'Uconsulta.pas' {Form8},
+  Udmdados in 'Udmdados.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormMenu, FormMenu);
+  Application.CreateForm(TFormClientes, FormClientes);
+  Application.CreateForm(TFormContas, FormContas);
+  Application.CreateForm(TFormBancos, FormBancos);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.Run;
+end.

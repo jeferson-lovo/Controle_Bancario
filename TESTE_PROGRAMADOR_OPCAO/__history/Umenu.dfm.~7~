@@ -1,0 +1,40 @@
+object FormMenu: TFormMenu
+  Left = 0
+  Top = 0
+  Caption = 'Menu'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 24
+    Top = 32
+    object Cadastrar1: TMenuItem
+      Caption = 'Clientes'
+      OnClick = Cadastrar1Click
+    end
+    object Contas2: TMenuItem
+      Caption = 'Bancos'
+      OnClick = Contas2Click
+    end
+    object Analitico2: TMenuItem
+      Caption = 'Contas'
+      OnClick = Analitico2Click
+    end
+    object Relatorios1: TMenuItem
+      Caption = 'Relatorios'
+      object Relatorios2: TMenuItem
+        Caption = 'Relatorios'
+      end
+    end
+  end
+end

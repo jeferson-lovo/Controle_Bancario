@@ -1,0 +1,66 @@
+unit Umenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TFormMenu = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastrar1: TMenuItem;
+    Contas2: TMenuItem;
+    Analitico2: TMenuItem;
+    Relatorios1: TMenuItem;
+    Relatorios2: TMenuItem;
+    procedure Cadastrar1Click(Sender: TObject);
+    procedure Contas2Click(Sender: TObject);
+    procedure Analitico2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormMenu: TFormMenu;
+
+implementation
+
+{$R *.dfm}
+
+uses Ubanco, Uconsulta, Uconta, Ucredito, Udebito, Udmdados,
+  Urelatorio, UCliente;
+
+procedure TFormMenu.Analitico2Click(Sender: TObject);
+begin
+FormContas.Show;
+end;
+
+procedure TFormMenu.Cadastrar1Click(Sender: TObject);
+begin
+FormCliente.Show;
+end;
+
+procedure TFormMenu.Contas2Click(Sender: TObject);
+begin
+FormBancos.Show;
+end;
+
+procedure TFormMenu.FormCreate(Sender: TObject);
+begin
+  DataModule1 :=  TDataModule1.Create(self);
+  DataModule1.ZConnection1.SQLHourGlass := true;
+  DataModule1.ZConnection1.Protocol := 'mssql';
+  DataModule1.ZConnection1.LibraryLocation := 'C:\Users\JEFERSON\Documents\TESTE_PROGRAMADOR_OPCAO\ntwdblib.dll';
+  DataModule1.ZConnection1.HostName := '.\TESTEPROGRAMADOR' ;
+  DataModule1.ZConnection1.Port :=1433;
+  DataModule1.ZConnection1.User :='teste';
+  DataModule1.ZConnection1.Password :='teste';
+  DataModule1.ZConnection1.Database := 'dbteste';
+  DataModule1.ZConnection1.Connected := true;
+end;
+
+end.
